@@ -795,6 +795,10 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.go-subscribe-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 
 /* CSS FOR PORTFOLIO.HTML */
 
@@ -1065,6 +1069,15 @@ height: 40px;
 padding-left: 30px;
 }
 
+.inputforform:focus + svg,
+.inputforform:hover + svg {
+  fill: var(--accent-color);
+}
+.inputforform:focus,
+.inputforform:hover {
+  border: 1px solid var(--accent-color);
+}
+
 .div-area {
   display: flex;
   flex-direction: column;
@@ -1094,11 +1107,15 @@ color: #757575;
 
 
 .areaforcomment::placeholder {
-font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
+}
+
+.areaforcomment:hover,
+.areaforcomment:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .div-area.comment {
@@ -1142,18 +1159,6 @@ height: 120px;
   transform: translateX(15px) translateY(32px);
 }
 
-.inputforform:focus + svg,
-.inputforform:hover +svg {
-  fill: var(--accent-color);
-}
-.inputforform:focus,
-.inputforform:hover {
-  border: 1px solid var(--accent-color);
-}
-.areaforcomment:hover,
-.areaforcomment:focus {
-  border: 1px solid var(--accent-color);
-}
 
 .div-area.iagree {
   margin-bottom: 30px;
