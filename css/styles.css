@@ -1033,6 +1033,10 @@ margin-bottom: 50px;
   right: 0;
   margin-top: 8px;
   margin-right: 8px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-modal {
@@ -1048,12 +1052,12 @@ margin-bottom: 12px;
 }
 
 .close-svg {
-  width: 100%;
-  height: 100%;
+  width: 11px;
+  height: 11px;
   fill: currentColor;
 }
 
-.close-modal:hover .close-svg{
+.close-modal:hover {
   color: var(--accent-color);
 }
 
@@ -1067,6 +1071,10 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 height: 40px;
 padding-left: 30px;
+
+transition-property: border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inputforform:focus + svg,
@@ -1127,6 +1135,10 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 padding: 12px 16px;
 height: 120px;
+
+transition-property: border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .agreement-conditions {
@@ -1141,6 +1153,10 @@ height: 120px;
   position: absolute;
   position: absolute;
   transform: translateX(15px) translateY(32px);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .number-phone-svg {
@@ -1149,6 +1165,10 @@ height: 120px;
   position: absolute;
   position: absolute;
   transform: translateX(15px) translateY(32px);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-svg {
@@ -1157,6 +1177,10 @@ height: 120px;
   position: absolute;
   position: absolute;
   transform: translateX(15px) translateY(32px);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
